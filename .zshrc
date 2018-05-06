@@ -102,5 +102,4 @@ bindkey -s "\C-r" "\eqhh\n"     # bind hh to Ctrl-r (for Vi mode check doc)
 
 
 
-export PATH=/opt/conda/bin:/Users/username/Anaconda3/bin:/usr/lib64/qt-3.3/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/bin:/home/mike/bin:/usr/local/sbin:/usr/sbin:/home/mike/bin
 export PATH=/home/mike/anaconda3/bin:/opt/conda/bin:/Users/username/Anaconda3/bin:/usr/lib64/qt-3.3/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/bin:/home/mike/bin:/usr/local/sbin:/usr/sbin:/home/mike/bin
