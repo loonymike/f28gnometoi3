@@ -1,0 +1,146 @@
+! Xft settings
+
+Xft.dpi:                    96
+Xft.antialias:              true
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+*background: #002b36
+*foreground: #657b83
+!!*fading: 40
+*fadeColor: #002b36
+*cursorColor: #93a1a1
+*pointerColorBackground: #586e75
+*pointerColorForeground: #93a1a1
+
+!! black dark/light
+*color0: #073642
+*color8: #002b36
+
+!! red dark/light
+*color1: #dc322f
+*color9: #cb4b16
+
+!! green dark/light
+*color2: #859900
+*color10: #586e75
+
+!! yellow dark/light
+*color3: #b58900
+*color11: #657b83
+
+!! blue dark/light
+*color4: #268bd2
+*color12: #839496
+
+!! magenta dark/light
+*color5: #d33682
+*color13: #6c71c4
+
+!! cyan dark/light
+*color6: #2aa198
+*color14: #93a1a1
+
+!! white dark/light
+*color7: #eee8d5
+*color15: #fdf6e3
+
+! URXVT settings
+
+URxvt.depth:                32
+URxvt.geometry:             60x28
+URxvt.loginShell:           true
+URxvt.internalBorder:       3
+URxvt.lineSpace:            -1
+
+! transparency - true or false (default)
+URxvt*transparent: false 
+
+! tint with any color; i.e., blue, red, tomato4, olivedrab2, etc.
+!   some nice listings are at:
+!     http://www.nisrv.com/drupal/?q=node/11
+!     http://www.htmlgoodies.com/tutorials/colors/article.php/3478921
+! URxvt*tintColor: S_base03
+
+! shading - 0 to 99 darkens, 101 to 200 lightens.
+URxvt*shading: 15
+
+URxvt*saveLines: 12000
+
+URxvt*foreground: #ffff00
+URxvt*background: #002b36
+
+! Powerline font
+
+! URxvt*font: xft:Inconsolate Medium:pixelsize=14, xft:PowerlineSymbols
+URxvt*boldFont: xft:Inconsolata Medium:bold:pixelsize=14
+URxvt*font: xft:Consolas:size=12, xft:Source Code Pro Medium for Powerline
+
+URxvt*letterSpace: 1
+
+! scrollbar - true (default) or false
+URxvt*scrollBar: true
+
+! scrollbar position - left=false (default) or right=true
+URxvt*scrollBar_right: true
+
+! scrollbar style - rxvt (default), plain, next, or xterm
+URxvt*scrollstyle: plain
+
+!xterm settings
+
+! Use a nice truetype font and size by default... 
+! xterm*faceName: DejaVu Sans Mono Book
+xterm*faceSize: 12
+XTerm*faceName: DejaVu Sans Mono for Powerline
+
+XTerm*selectToClipboard: true
+XTerm*termName: xterm-256color
+XTerm*locale: true
+XTerm*metaSendsEscape: true
+! UXTerm*faceName: Source Code Pro Medium for Powerline
+! UXTerm*faceSize:10
+
+! Every shell is a login shell by default (for inclusion of all necessary environment variables)
+xterm*loginshell: true
+
+! I like a LOT of scrollback...
+xterm*savelines: 16384
+
+! double-click to select whole URLs :D
+xterm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+! DOS-box colours...
+xterm*foreground: rgb:a8/a8/a8
+xterm*background: rgb:00/43/54
+xterm*color0: rgb:00/00/00
+xterm*color1: rgb:a8/00/00
+xterm*color2: rgb:00/a8/00
+xterm*color3: rgb:a8/54/00
+xterm*color4: rgb:00/00/a8
+xterm*color5: rgb:a8/00/a8
+xterm*color6: rgb:00/a8/a8
+xterm*color7: rgb:a8/a8/a8
+xterm*color8: rgb:54/54/54
+xterm*color9: rgb:fc/54/54
+xterm*color10: rgb:54/fc/54
+xterm*color11: rgb:fc/fc/54
+xterm*color12: rgb:54/54/fc
+xterm*color13: rgb:fc/54/fc
+xterm*color14: rgb:54/fc/fc
+xterm*color15: rgb:fc/fc/fc
+
+! right hand side scrollbar...
+xterm*rightScrollBar: true
+xterm*ScrollBar: true
+
+! stop output to terminal from jumping down to bottom of scroll again
+xterm*scrollTtyOutput: false
+
+xterm*VT100.Translations: #override \
+                 Shift <Key>Insert:    insert-selection(SELECT) \n\
+                 Ctrl Shift <Key>V:    insert-selection(SELECT) \n\
+                 Ctrl Shift <Key>C:    copy-selection(SELECT)
+                 
+
