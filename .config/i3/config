@@ -36,7 +36,7 @@ exec --no-startup-id /usr/bin/xinput set-prop "SynPS/2 Synaptics TouchPad" "libi
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id "compton -c -b"
 exec --no-startup-id light-locker
-#exec --no-startup-id pasystray
+exec --no-startup-id xfce4-notifyd
 
 
 # App shortcuts
